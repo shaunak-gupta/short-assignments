@@ -1,0 +1,1 @@
+Write programs in C/C++ for the closest pair problem in R^2 implementing both the deterministic and randomized algorithms. Run the program on at least 1000 randomly generated data and repeat the experiment for at least 100 times. Check whether the CPU time matches the time complexities of the respective algorithms.

@@ -1,0 +1,5 @@
+Implement the Miller Rabin primality test. Your program should read a 256 bit number
+represented in hexadecimal format from a file and output either prime or composite. Your implemen-
+tation should be able to test primality of a 256 bit number in reasonable time. You should not use any
+multi precision library for this implementation. The basic arithmetic operations for large integers which
+would be required should also be implemented.

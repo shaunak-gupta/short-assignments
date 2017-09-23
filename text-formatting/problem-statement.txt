@@ -1,0 +1,23 @@
+Write a program that takes a text file as input and prints its contents to standard output in a
+‘properly formatted’ manner. See below for more details about formatting requirements.
+Input format: Your program should take a single command line argument that specifies the name
+of the input file. The input file will contain one or more paragraphs of text. Paragraphs will be
+separated by one or more blank lines. You may assume that the text will contain only letters, digits,
+punctuation marks (comma, semi-colon, colon, fullstop, question mark, exclamation mark, but no
+dashes, hyphens, parentheses) and white space.
+
+Output format specifications:
+• Words should be separated by one or more blanks.
+• There should be no whitespace between a word and a following punctuation mark, but each
+punctuation mark should be followed by one or more blanks.
+• Paragraphs should be separated by exactly one blank line.
+• Each line of each paragraph should start with and end in a non-whitespace character.
+• The paragraphs should appear ‘fully justified’, i.e., all lines except the last line of each paragraph
+should be exactly 80 characters long. It will usually be necessary to add extra blank spaces in
+between words to achieve this effect. For a ‘natural’ look, the number of extra blanks inserted
+around a word should roughly be proportional to the length of the word.
+• No word should be split across lines.
+• If a single word is longer than 80 characters, it should appear by itself on one line.
+• You should minimise the total number of lines required in the output, i.e., each line should
+contain the maximum number of non-whitespace characters possible, subject to the constraints
+given above.

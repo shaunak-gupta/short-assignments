@@ -1,0 +1,5 @@
+Given  a  polynomial f(x)  = a_0 + a_1.x + a_2.x^2 + . . . + a_n.x^(n−1),  where a_i ∈ F_2^128 and  the addition and multiplications are also in the finite field F_2^128, write a program to find f(h) for a given h ∈  F_2^128. The program should be written following the rules below.
+
+– The computation would involve multiplications in the finite field F_2^128. You should use x^128 + x^7 + x^2 + x + 1 as the irreducible polynomial.
+
+– The  program  should  take  as  input  a  file  with  the  following  structure:  The  first  entry  would  be the degree of the polynomial (say n−1) followed by n coefficients a_0, a_1, . . . , a_(n−1) which would be followed by the value of h (the point where the polynomial would be evaluated). All values except the degree of the polynomial would be represented in hexadecimal format. The program should output the value of f(h) in hexadecimal format.

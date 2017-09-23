@@ -1,0 +1,5 @@
+Implement an algorithm of multiplying two polynomials P and Q of degree m and n respectively using Fast Fourier Transform. 
+The input to the algorithm are two polynomials P and Q. 
+The input P are the coefficients of x^i for all i = 1,2,..., m. (If the coefficient of x^i is 0, then you need to put 0 in the input.) Similarly, the polynomial Q is given.
+Finally, output the product polynomial with a list of coefficients.
+While testing the program, the input will be a file containing the two polynomials P and Q.

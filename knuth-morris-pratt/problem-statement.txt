@@ -1,0 +1,1 @@
+ Preprocess a pattern string P of characters using KMP algorithm so that all occurances of P in a text string T can be reported. The input pattern string P and text string T will be given as a file.

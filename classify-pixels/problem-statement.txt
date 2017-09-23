@@ -1,0 +1,1 @@
+Classify the pixels of a satellite image as river, non-river pixels. The same image is provided in 4 bands.

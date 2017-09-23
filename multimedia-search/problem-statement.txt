@@ -1,0 +1,9 @@
+Assume that you store various audio files within a directory tree, as shown in the adjacent figure. Your task is to write a program that will take the path to the root of the directory tree as a command-line argument, along with zero
+or more constraints that are also specified as command-line arguments, and will list the paths to the audio files that satisfy all the given conditions. More details about the possible constraints are given below. If no constraints are specified, your program should print the names of all files within the specified directory tree.
+
+Constraints:
+
+Syntax              Meaning
+-t abcdef           Title contains the string abcdef (case is not important)
+-a pqrst            Artist name contains the string pqrst (case is not important)
+-d n                Duration of audio is at most n seconds

@@ -1,0 +1,27 @@
+[Trie and spell checker]
+
+Write C code for the following problem:
+
+(a) Generate a trie structure T with all the words of the file:
+/usr/share/dict/words.
+
+First, one should carefully look at the content of the file as
+there are some special characters other than the English alphabets.
+Your implementation of T should be able to handle those characters.
+Measure the time needed to create T.
+
+(b) Now, take a word (the word is denoted as 'w') from the user as input
+and check whether 'w' is present in the Trie. The searching should be
+case-insensitive; i.e., if there is a word 'action' present in the file
+and the user types in 'Action', the search should be successful. If 'w'
+is found in T, report that the word is a dictionary word. Otherwise,
+generate spell-correcting suggestions from the dictionary. There are four
+groups of words that are suggested from the dictionary.
+
+Group 1: words obtained from T by delete any one letter from 'w';
+Group 2: words obtained from T by adding one letter at any position of 'w';
+Group 3: words obtained from T by changing any single letter of 'w';
+Group 4: words obtained from T by swapping any two letters of 'w'.
+
+Report all the suggested words that are present in the dictionary.
+Measure the searching time.

@@ -1,0 +1,10 @@
+Find optimal (maximum) value of a function using genetic algorithm. The real valued function F is defined as:
+
+F(x)    = 0             ; x < 0
+        = sin(x)+6      ; 0   <= x < 2pi
+        = 2sin(x)+6     ; 2pi <= x < 4pi
+        = 3sin(x)+6     ; 4pi <= x < 6pi
+        = 4sin(x)+6     ; 6pi <= x < 8pi
+        = 5sin(x)+6     ; 8pi <= x < 10pi
+        = sin(x)+6      ; 10pi<= x < 32
+        = 0             ; x >= 32

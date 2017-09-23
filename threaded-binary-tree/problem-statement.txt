@@ -1,0 +1,6 @@
+[Threaded binary tree]
+
+(a) Implement a threaded binary tree as discussed in class. 
+
+(b) Write routines for inorder, preorder and postorder traversals 
+using the threaded binary tree. 
